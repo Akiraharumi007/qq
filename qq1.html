@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text as Background Image</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: #333; /* Background color if the image has transparency */
+            color: black; /* Make text transparent */
+            font-size: 40px; /* Adjust font size as needed */
+            font-family: Arial, sans-serif; /* Choose the font family */
+            background: url('haha123.jpg') no-repeat center center fixed;
+            background-size: cover; /* Cover the entire viewport */
+            -webkit-background-clip: text; /* Clip the background to the text */
+            background-clip: text;
+        }
+
+        h1 {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>WHAAAT?</h1>
+</body>
+</html>
